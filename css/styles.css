@@ -1,0 +1,95 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Fjalla+One&family=Oswald:wght@200;300;400;500;600;700&family=Six+Caps&display=swap");
+/* Variable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth; }
+
+body {
+  overflow-x: hidden; }
+
+a,
+button a,
+.btn a {
+  text-decoration: none;
+  color: white; }
+
+li {
+  list-style-type: none; }
+
+p {
+  font-size: 1.5rem; }
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; }
+
+section {
+  overflow-y: scroll; }
+
+section header .navbar-dark .navbar-nav .nav-link {
+  color: white; }
+section header .navbar {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "0swald", sans-serif;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important; }
+  section header .navbar .navbar-brand img {
+    width: 7rem; }
+  section header .navbar .navbar-nav {
+    margin: 1rem 0; }
+    section header .navbar .navbar-nav button {
+      text-transform: uppercase;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: .5rem;
+      outline: none; }
+  section header .navbar .nav-item {
+    padding: 1rem 1rem; }
+    section header .navbar .nav-item .dropdown-menu {
+      border-radius: 0.5rem;
+      background: transparent;
+      border: none;
+      padding: 1rem 0; }
+      section header .navbar .nav-item .dropdown-menu a {
+        font-size: 1.1rem;
+        transition: all 650ms ease-in;
+        border-radius: 0.5rem;
+        color: white;
+        padding: 1rem 0; }
+        section header .navbar .nav-item .dropdown-menu a:hover {
+          background: rgba(0, 0, 0, 0.2) !important; }
+section .landing {
+  background: url("../assets/background-img.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+  section .landing::after {
+    content: '';
+    background: url("../assets/wave-small.png") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4.7rem; }
+  section .landing h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "six caps", sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem rgba(0, 0, 0, 0.8); }
+
+/*# sourceMappingURL=styles.css.map */
