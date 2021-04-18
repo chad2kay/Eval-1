@@ -2,8 +2,6 @@ section
 {
   .home-about-us
   {
-    height: auto;
-    margin: 2rem 0;
     h2
     {
       text-transform: uppercase;
@@ -18,7 +16,7 @@ section
     }
     p
     {
-      padding: 2rem 2rem;
+      padding: 1rem 2rem;
     }
   }
   .About-us-landing
@@ -40,5 +38,16 @@ section
       width: 100%;
       height : 4.7rem;
     }
+    /*&::after
+    {
+      content: '';
+      background: url("../assets/wave-small-reversed.png") center no-repeat;
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      bottom: -4.7rem;
+      width: 100%;
+      height : 4.7rem;
+    }*/
   }
 }

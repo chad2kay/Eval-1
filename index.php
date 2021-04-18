@@ -31,7 +31,7 @@
                             Le club
                         </a>
                         <div class="dropdown-menu text-center navbar-dark" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#about-us">A propos de nous</a>
+                            <a class="dropdown-item" href="#about-us">Presentation</a>
                             <a class="dropdown-item" href="#about-you">Installations</a>
                             <a class="dropdown-item" href="#">Le Bureau</a>
                             <a class="dropdown-item" href="#">Inscriptions</a>
@@ -70,6 +70,36 @@
 
 <section id="about-us">
     <div class="home-about-us">
+        <h2>A propos de nous</h2>
+        <p>
+            Bienvenue sur le site du Tennis Club Courneuvien qui, à travers ses différentes rubriques, vous permettra de mieux nous connaître.
+            <br>
+            <br>
+            Le Tennis Club de Courneuvien est un club convivial et familial où sportives et sportifs quelques
+            soit le niveau sauront trouver leur place : enfants, femmes et hommes, débutants ou confirmés. L’association
+            comptabilise environ 300 licenciés.
+            <br>
+            <br>
+            Toute l’année, l’école de tennis du Tennis Club Courneuvien propose pour chaque niveau et pour tous les âges des
+            entrainements ou leçons de tennis dispensés par des éducateurs diplômés et un professionnel diplômé d’état. Les cours
+            de tennis sont dispensés du Lundi au Vendredi selon les niveaux et les âges (à partir de 5-6ans).
+            <br>
+            <br>
+            Coté compétition, des équipes femme et homme participent aux championnats départementaux et régionaux de
+            Printemps et d’Automne. Libre à chacun de participer aux Tournois organisés par les clubs affiliés FFT de notre département
+            et au-delà.
+
+        </p>
+    </div>
+
+    <div class="About-us-landing">
+        <div class="home-inner">
+        </div>
+    </div>
+</section>
+
+<section id="about-you">
+    <div class="home-about-us-2">
         <h2>A propos de nous</h2>
         <p>
             Bienvenue sur le site du Tennis Club Courneuvien qui, à travers ses différentes rubriques, vous permettra de mieux nous connaître.
