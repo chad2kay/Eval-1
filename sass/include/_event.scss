@@ -1,0 +1,51 @@
+section
+{
+  .home-last-event
+  {
+    margin: 2rem 2rem;
+    .card-wrap
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .card
+      {
+        width: 30rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+        -webkit-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+        box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.5);
+        .card-title
+        {
+          font-size: 1.6rem;
+          font-weight : normal;
+        }
+        .card-text
+        {
+          font-size: 1.4rem;
+          color: grey;
+        }
+        .btn
+        {
+          font-size: 1.4rem;
+          padding: 0.5rem 2rem;
+        }
+        img
+        {
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+      }
+    }
+    .btn
+    {
+      margin-top : 2rem;
+      font-size: 1.4rem;
+      padding: 0.5rem 2rem;
+    }
+  }
+}
+
+

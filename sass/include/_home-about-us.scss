@@ -2,18 +2,7 @@ section
 {
   .home-about-us
   {
-    h2
-    {
-      text-transform: uppercase;
-      text-align: center;
-      font-size: 32px;
-      letter-spacing: 4px;
-      line-height: 32px;
-      font-family: "Six Caps", sans-serif;
-      font-weight: normal;
-      color: #272729;
-      padding: 15px 0;
-    }
+    margin: 2rem 0;
     p
     {
       padding: 1rem 2rem;
@@ -26,7 +15,6 @@ section
     width: 100%;
     height : 30vh;
     position: relative;
-
     &::before
     {
       content: '';

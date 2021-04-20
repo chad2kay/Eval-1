@@ -11,7 +11,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: "0swald", sans-serif; }
 
 a,
 button a,
@@ -29,6 +30,17 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto; }
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.6rem;
+  letter-spacing: 4px;
+  line-height: 32px;
+  font-family: "Six Caps", sans-serif;
+  font-weight: normal;
+  color: #272729;
+  padding: 15px 0; }
 
 section header .navbar-dark .navbar-nav .nav-link {
   color: white; }
@@ -89,18 +101,10 @@ section .landing {
     letter-spacing: 0.2rem;
     text-shadow: 0.1rem 0.1rem 0.8rem rgba(0, 0, 0, 0.8); }
 
-section .home-about-us h2 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 32px;
-  letter-spacing: 4px;
-  line-height: 32px;
-  font-family: "Six Caps", sans-serif;
-  font-weight: normal;
-  color: #272729;
-  padding: 15px 0; }
-section .home-about-us p {
-  padding: 1rem 2rem; }
+section .home-about-us {
+  margin: 2rem 0; }
+  section .home-about-us p {
+    padding: 1rem 2rem; }
 section .About-us-landing {
   background: url("../assets/photo_tcc.jpg") center no-repeat;
   background-size: cover;
@@ -127,5 +131,36 @@ section .About-us-landing {
     top: -1px;
     width: 100%;
     height: 4.7rem; }
+
+section .home-last-event {
+  margin: 2rem 2rem; }
+  section .home-last-event .card-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    section .home-last-event .card-wrap .card {
+      width: 30rem;
+      border-radius: 5px;
+      margin-top: 2rem;
+      -webkit-box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.5); }
+      section .home-last-event .card-wrap .card .card-title {
+        font-size: 1.6rem;
+        font-weight: normal; }
+      section .home-last-event .card-wrap .card .card-text {
+        font-size: 1.4rem;
+        color: grey; }
+      section .home-last-event .card-wrap .card .btn {
+        font-size: 1.4rem;
+        padding: 0.5rem 2rem; }
+      section .home-last-event .card-wrap .card img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px; }
+  section .home-last-event .btn {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem; }
 
 /*# sourceMappingURL=styles.css.map */
