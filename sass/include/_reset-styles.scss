@@ -32,7 +32,9 @@ li
 
 p
 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-family: $cardo;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 img
@@ -53,6 +55,15 @@ h2
   font-weight: normal;
   color: #272729;
   padding: 15px 0;
+}
+
+h5
+{
+  font-family: $oswald;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
 }
 
 .btn

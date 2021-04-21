@@ -44,11 +44,12 @@ section
           border: 1px solid #ccc;
           margin: 0 0.8rem;
           color: white;
-          transition: 0.2s ease-in;
+          transition: 0.2s ease-in-out;
           &:hover
           {
             color: $green;
             border: 1px solid $green;
+            transform: scale(1.3);
           }
         }
       }
