@@ -44,7 +44,7 @@ h2 {
 
 .btn {
   font-size: 1.4rem;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: gray; }
@@ -221,24 +221,23 @@ section .footer-basic {
   background-color: #272729;
   color: #4b4c4d; }
   section .footer-basic ul {
-    padding: 0;
-    font-size: 1.7rem;
-    line-height: 1.6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center; }
     section .footer-basic ul a {
-      color: white; }
+      font-size: 1.7rem;
+      color: rgba(255, 255, 255, 0.5);
+      transition: 0.2s ease-in-out;
+      font-style: normal; }
       section .footer-basic ul a:hover {
         color: #1995ad;
         text-decoration: none; }
   section .footer-basic li {
-    padding: 1rem 0; }
+    padding: 0.2rem 0; }
   section .footer-basic .social {
     text-align: center;
     padding-bottom: 2.5rem; }
-    section .footer-basic .social > a {
+    section .footer-basic .social a {
       font-size: 2.4rem;
       width: 4rem;
       height: 4rem;
@@ -248,8 +247,9 @@ section .footer-basic {
       border-radius: 50%;
       border: 1px solid #ccc;
       margin: 0 0.8rem;
-      color: white; }
-      section .footer-basic .social > a:hover {
+      color: white;
+      transition: 0.2s ease-in; }
+      section .footer-basic .social a:hover {
         color: #1995ad;
         border: 1px solid #1995ad; }
   section .footer-basic .copyright {

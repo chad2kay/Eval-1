@@ -7,16 +7,16 @@ section
       color:#4b4c4d;
       ul
       {
-        padding: 0;
-        font-size: 1.7rem;
-        line-height: 1.6;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         text-align: center;
+
         a
         {
-          color: white;
+          font-size: 1.7rem;
+          color: rgba(255, 255, 255, 0.5);
+          transition: 0.2s ease-in-out;
+          font-style: normal;
           &:hover
           {
             color: $green;
@@ -26,13 +26,13 @@ section
       }
       li
       {
-        padding: 1rem 0;
+        padding: 0.2rem 0;
       }
       .social
       {
         text-align: center;
         padding-bottom: 2.5rem;
-        > a
+        a
         {
           font-size: 2.4rem;
           width: 4rem;
@@ -44,6 +44,7 @@ section
           border: 1px solid #ccc;
           margin: 0 0.8rem;
           color: white;
+          transition: 0.2s ease-in;
           &:hover
           {
             color: $green;
