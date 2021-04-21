@@ -68,12 +68,6 @@ section header .navbar {
     width: 7rem; }
   section header .navbar .navbar-nav {
     margin: 1rem 0; }
-    section header .navbar .navbar-nav button {
-      text-transform: uppercase;
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
-      border-radius: .5rem;
-      outline: none; }
   section header .navbar .nav-item {
     padding: 1rem 1rem; }
     section header .navbar .nav-item .dropdown-menu {
@@ -221,5 +215,47 @@ section .home-last-articles {
           filter: grayscale(0); }
   section .home-last-articles .btn {
     margin-top: 4rem; }
+
+section .footer-basic {
+  padding: 40px 0;
+  background-color: #272729;
+  color: #4b4c4d; }
+  section .footer-basic ul {
+    padding: 0;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    section .footer-basic ul a {
+      color: white; }
+      section .footer-basic ul a:hover {
+        color: #1995ad;
+        text-decoration: none; }
+  section .footer-basic li {
+    padding: 1rem 0; }
+  section .footer-basic .social {
+    text-align: center;
+    padding-bottom: 2.5rem; }
+    section .footer-basic .social > a {
+      font-size: 2.4rem;
+      width: 4rem;
+      height: 4rem;
+      line-height: 4rem;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      margin: 0 0.8rem;
+      color: white; }
+      section .footer-basic .social > a:hover {
+        color: #1995ad;
+        border: 1px solid #1995ad; }
+  section .footer-basic .copyright {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5); }
 
 /*# sourceMappingURL=styles.css.map */
