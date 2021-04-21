@@ -54,3 +54,22 @@ h2
   color: #272729;
   padding: 15px 0;
 }
+
+.btn
+{
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: gray;
+  &:hover
+  {
+    background-color: $green;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+}
+.card-title
+{
+  margin: 2rem 0;
+}

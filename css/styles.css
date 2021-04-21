@@ -42,6 +42,20 @@ h2 {
   color: #272729;
   padding: 15px 0; }
 
+.btn {
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: gray; }
+  .btn:hover {
+    background-color: #1995ad;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: white; }
+
+.card-title {
+  margin: 2rem 0; }
+
 section header .navbar-dark .navbar-nav .nav-link {
   color: white; }
 section header .navbar {
@@ -133,14 +147,14 @@ section .About-us-landing {
     height: 4.7rem; }
 
 section .home-last-event {
-  margin: 2rem 2rem; }
+  padding: 5rem 0; }
   section .home-last-event .card-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
     section .home-last-event .card-wrap .card {
-      width: 30rem;
+      width: 35rem;
       border-radius: 5px;
       margin-top: 2rem;
       -webkit-box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
@@ -152,15 +166,60 @@ section .home-last-event {
       section .home-last-event .card-wrap .card .card-text {
         font-size: 1.4rem;
         color: grey; }
-      section .home-last-event .card-wrap .card .btn {
-        font-size: 1.4rem;
-        padding: 0.5rem 2rem; }
       section .home-last-event .card-wrap .card img {
         border-top-left-radius: 5px;
-        border-top-right-radius: 5px; }
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        filter: grayscale(1);
+        transition: all 0.3s ease;
+        background-size: cover; }
+        section .home-last-event .card-wrap .card img:hover {
+          filter: grayscale(0); }
   section .home-last-event .btn {
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    padding: 0.5rem 2rem; }
+    margin-top: 4rem; }
+
+section .home-last-articles {
+  padding: 5rem 0; }
+  section .home-last-articles .card-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    section .home-last-articles .card-wrap .card {
+      width: 35rem;
+      border-radius: 5px;
+      margin-top: 2rem;
+      -webkit-box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden; }
+      section .home-last-articles .card-wrap .card .card-title {
+        font-size: 1.6rem;
+        font-weight: normal; }
+      section .home-last-articles .card-wrap .card .card-date {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        width: 10rem;
+        background-color: #dbec5e;
+        text-align: center;
+        font-size: 1.6rem;
+        vertical-align: center;
+        padding: 0.5rem 0.5rem; }
+      section .home-last-articles .card-wrap .card .card-text {
+        font-size: 1.4rem;
+        color: grey; }
+      section .home-last-articles .card-wrap .card img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        filter: grayscale(1);
+        transition: all 0.3s ease;
+        background-size: cover; }
+        section .home-last-articles .card-wrap .card img:hover {
+          filter: grayscale(0); }
+  section .home-last-articles .btn {
+    margin-top: 4rem; }
 
 /*# sourceMappingURL=styles.css.map */
