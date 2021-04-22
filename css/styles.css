@@ -361,4 +361,49 @@ section .terms {
     color: #1995ad;
     font-weight: bold; }
 
+section {
+  margin: 2rem 0; }
+  section .grid-education {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 30rem));
+    grid-gap: 2rem;
+    padding: 4rem;
+    justify-content: center; }
+    section .grid-education .education-grid-item {
+      background-color: #ffe6e6;
+      height: auto;
+      padding: 4rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      position: relative; }
+      section .grid-education .education-grid-item img {
+        border-radius: 50%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        filter: grayscale(1); }
+      section .grid-education .education-grid-item .education-title {
+        text-align: center;
+        font-family: "0swald", sans-serif;
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold; }
+      section .grid-education .education-grid-item .education-text {
+        text-align: center; }
+
+section .tennis-school {
+  margin: 2rem 0; }
+  section .tennis-school p {
+    padding: 1rem 2rem; }
+  section .tennis-school h5 {
+    padding: 1rem 2rem; }
+section .school-landing {
+  background: url("../assets/edtTCC.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  position: relative; }
+
 /*# sourceMappingURL=styles.css.map */

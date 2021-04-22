@@ -1,0 +1,43 @@
+section
+{
+  margin: 2rem 0;
+  .grid-education
+  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 30rem));
+    grid-gap: 2rem;
+    padding: 4rem;
+    justify-content: center;
+    .education-grid-item
+    {
+      background-color: $pink;
+      height: auto;
+      padding: 4rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      img
+      {
+        border-radius: 50%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        filter: grayscale(1);
+      }
+      .education-title
+      {
+        text-align: center;
+        font-family: $oswald;
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .education-text
+      {
+        text-align: center;
+      }
+    }
+  }
+}
