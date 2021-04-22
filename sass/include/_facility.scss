@@ -1,0 +1,29 @@
+section
+{
+  .grid-facility
+  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2rem;
+    padding: 4rem;
+    .facility-grid-item
+    {
+      background-color: $light-green;
+      height: auto;
+      padding: 4rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .fas
+      {
+        color: #ffe6e6;
+        font-size: 5rem;
+        height: 5rem;
+        width: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

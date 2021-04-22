@@ -1,0 +1,41 @@
+section
+{
+  .grid-office
+  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+    padding: 4rem;
+    .office-grid-item
+    {
+      background-color: $pink;
+      height: auto;
+      padding: 4rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      img
+      {
+        border-radius: 50%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        filter: grayscale(1);
+      }
+      .office-title
+      {
+        text-align: center;
+        font-family: $oswald;
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .office-text
+      {
+        text-align: center;
+      }
+    }
+  }
+}
