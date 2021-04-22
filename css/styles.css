@@ -406,4 +406,17 @@ section .school-landing {
   height: 40vh;
   position: relative; }
 
+section p {
+  padding: 1rem 2rem; }
+section .partners {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  flex-wrap: wrap; }
+  section .partners img {
+    width: 30rem;
+    margin: 2.5rem 2.5rem; }
+
 /*# sourceMappingURL=styles.css.map */
