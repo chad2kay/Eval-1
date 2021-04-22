@@ -1,9 +1,5 @@
 section
 {
-  p
-  {
-    padding: 1rem 2rem;
-  }
   .partners
   {
     margin: 2rem 0;
@@ -16,6 +12,10 @@ section
     {
       width: 30rem;
       margin: 2.5rem 2.5rem;
+    }
+    p
+    {
+      padding: 1rem 2rem;
     }
   }
 }
