@@ -13,7 +13,8 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: "0swald", sans-serif; }
+  font-family: "0swald", sans-serif;
+  position: relative; }
 
 a,
 button a,
@@ -439,5 +440,22 @@ section .contact-us {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+
+section .event {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  section .event p {
+    padding: 1rem 2rem; }
+  section .event .image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    section .event .image-wrap img {
+      width: 35rem;
+      margin: 2rem 2rem; }
 
 /*# sourceMappingURL=styles.css.map */
