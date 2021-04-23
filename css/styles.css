@@ -481,6 +481,8 @@ section .event {
     background: url("../assets/wave-medium.png") center no-repeat;
     height: 9.4rem;
     bottom: -3px; }
+  header .landing h1 {
+    font-size: 8rem; }
 
   section .home-about-us p,
   section .home-about-us h5,
@@ -521,6 +523,8 @@ section .event {
     content: '';
     background: url("../assets/wave-large.png") center no-repeat;
     height: 22.7rem; }
+  header .landing h1 {
+    font-size: 12rem; }
 
   section .home-about-us {
     margin: 0; }
