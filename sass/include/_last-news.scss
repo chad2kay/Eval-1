@@ -3,12 +3,16 @@ section
   .home-last-articles
   {
     padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
     .card-wrap
     {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       .card
       {
         width: 35rem;

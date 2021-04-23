@@ -176,19 +176,23 @@ section .About-us-landing {
     height: 4.7rem; }
 
 section .home-last-event {
-  padding: 5rem 0; }
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   section .home-last-event .card-wrap {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    flex-wrap: wrap; }
     section .home-last-event .card-wrap .card {
       width: 35rem;
       border-radius: 5px;
       margin-top: 2rem;
-      -webkit-box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
-      box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.5); }
+      -webkit-box-shadow: 0 10px 10px -9px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0 10px 10px -9px rgba(0, 0, 0, 0.75);
+      box-shadow: 0 10px 10px -9px rgba(0, 0, 0, 0.5); }
       section .home-last-event .card-wrap .card img {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
@@ -202,12 +206,16 @@ section .home-last-event {
     margin-top: 4rem; }
 
 section .home-last-articles {
-  padding: 5rem 0; }
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   section .home-last-articles .card-wrap {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    flex-wrap: wrap; }
     section .home-last-articles .card-wrap .card {
       width: 35rem;
       border-radius: 5px;
@@ -413,13 +421,19 @@ section .school-landing {
 section .partners {
   margin: 2rem 0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1.5rem 2rem;
-  flex-wrap: wrap; }
-  section .partners img {
-    width: 30rem;
-    margin: 2.5rem 2.5rem; }
+  flex-direction: column;
+  padding: 1.5rem 2rem; }
+  section .partners .image-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    section .partners .image-wrap img {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      width: 30rem;
+      margin: 2.5rem 2.5rem; }
   section .partners p {
     padding: 1rem 2rem; }
 
@@ -455,7 +469,76 @@ section .event {
     align-items: center;
     flex-wrap: wrap; }
     section .event .image-wrap img {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
       width: 35rem;
       margin: 2rem 2rem; }
+
+/* Petite tablette */
+@media screen and (min-width: 620px) {
+  header .landing::after {
+    content: '';
+    background: url("../assets/wave-medium.png") center no-repeat;
+    height: 9.4rem;
+    bottom: -3px; }
+
+  section .home-about-us p,
+  section .home-about-us h5,
+  section .tennis-school p,
+  section .tennis-school h5,
+  section .partners p,
+  section .partners h5,
+  section .event p,
+  section .event h5 {
+    padding: 1rem 5rem; }
+  section .event .image-wrap img {
+    width: 60rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px; }
+  section .About-us-landing {
+    height: 40vh; }
+    section .About-us-landing::before {
+      content: '';
+      background: url("../assets/wave-medium-reversed.png") center no-repeat;
+      height: 9.4rem;
+      top: -2px; }
+  section .card {
+    width: 30rem !important;
+    margin: 0 2rem; }
+  section .contact-us aside iframe {
+    width: 70rem;
+    height: 30rem; }
+
+  .footer-basic ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .footer-basic ul .list-inline-item {
+      margin: 1rem 2rem; } }
+/* Grande tablette & laptop */
+@media screen and (min-width: 790px) {
+  header .landing::after {
+    content: '';
+    background: url("../assets/wave-large.png") center no-repeat;
+    height: 22.7rem; }
+
+  section .home-about-us {
+    margin: 0; }
+    section .home-about-us p {
+      text-align: center;
+      padding: 1rem 5rem; }
+  section .About-us-landing {
+    height: 60vh; }
+    section .About-us-landing::before {
+      content: '';
+      background: url("../assets/wave-large-reversed.png") center no-repeat;
+      height: 22.7rem; }
+  section .contact-us aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    section .contact-us aside iframe {
+      width: 60rem;
+      height: 30rem; } }
 
 /*# sourceMappingURL=styles.css.map */

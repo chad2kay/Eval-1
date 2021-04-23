@@ -19,6 +19,8 @@ section
       flex-wrap: wrap;
       img
       {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
         width: 35rem;
         margin: 2rem 2rem;
       }

@@ -4,15 +4,24 @@ section
   {
     margin: 2rem 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
     padding : 1.5rem 2rem;
-    flex-wrap: wrap;
-    img
+    .image-wrap
     {
-      width: 30rem;
-      margin: 2.5rem 2.5rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      img
+      {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        width: 30rem;
+        margin: 2.5rem 2.5rem;
+      }
     }
+
     p
     {
       padding: 1rem 2rem;
